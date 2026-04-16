@@ -7,3 +7,10 @@ jobs:
     steps:
       - name: Print message
         run: echo "Hello , GitHub Actions!"
+
+  say-bye:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Bye , github Actions!"
