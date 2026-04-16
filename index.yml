@@ -1,0 +1,11 @@
+name: Simple Workflow
+
+on: push
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "hi"
+      - run: echo "hello"
