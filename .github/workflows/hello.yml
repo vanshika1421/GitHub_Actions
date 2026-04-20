@@ -10,8 +10,6 @@ jobs:
       - name: list file
         run: ls
       
-        
-
   say-bye:
     needs: say-hello
     runs-on: ubuntu-latest
