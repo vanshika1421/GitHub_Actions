@@ -5,8 +5,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print message
-        run: echo "Hello , GitHub Actions!"
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: list file
+        run: ls
+      
+        
 
   say-bye:
     needs: say-hello
@@ -18,5 +22,19 @@ jobs:
 
 #   By default jobs run parallely
 # To run them in sequence we use needs
+
+# runners : runners are machines where jobs run:
+#Types of runners:1)Github_hosted..windows mac os ubuntu are the examples 2)Selft hosted-> Yor server or your cloud virtua machine
+
+#USES ACTION :  
+#Actions: Reusable piece of built in fucntion provided by github
+#clone->repo
+#setu up-> node
+
+
+
+
+
+
 
   
