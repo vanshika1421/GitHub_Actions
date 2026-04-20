@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print message
-        run: echo "Bye , github Actions!"
+      - name: Print message 
+        run: echo "Bye , github Actions!!!!"
 
 #   By default jobs run parallely
 # To run them in sequence we use needs
