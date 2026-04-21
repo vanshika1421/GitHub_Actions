@@ -10,7 +10,7 @@ jobs:
       - name: list file
         run: ls
       - name: setup node
-        run: actions/setup-node@v2
+        uses: actions/setup-node@v2
       - name: Checking node version
         run: node -v
   
