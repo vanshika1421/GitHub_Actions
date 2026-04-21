@@ -1,4 +1,4 @@
-name : My First workflow
+name : Test Workflow
 on   : push
 jobs:
   say-hello:
@@ -15,6 +15,7 @@ jobs:
         run: node -v
       - name: starting test
         run: npm run test
+        
   
       
   say-bye:
