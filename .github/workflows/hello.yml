@@ -32,7 +32,7 @@ jobs:
       - name: start server
         run: node server.js
       - name: deploy-step
-        run: echo "deploy-setup"
+        run: echo "deploy-setup!"
         
         
         
