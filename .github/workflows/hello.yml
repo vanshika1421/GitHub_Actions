@@ -15,6 +15,25 @@ jobs:
         run: node -v
       - name: starting test
         run: npm run test
+  deploy-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: list file
+        run: ls
+      - name: Setup node
+        uses: actions/setup-node@v4
+      - name: install dependencies
+        run: npm install
+      - name: starting test
+        run: npm run test
+      - name: start server
+        run: node server.js
+      - name: deploy-step
+        
+        
         
   
       
