@@ -11,7 +11,7 @@ jobs:
         run: ls
       - name: setup node
         run: actions/setup-node@v2
-      - name: Version check
+      - name: Checking node version
         run: node -v
   
       
